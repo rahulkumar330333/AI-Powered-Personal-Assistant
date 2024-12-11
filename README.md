@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# AI-Powered Personal Assistant
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An intelligent mobile app that leverages GPT-powered conversational AI for voice commands and text-based interactions. The app enables users to perform tasks such as setting reminders, checking the weather, and executing other commands through natural language processing.
 
-## Get started
+---
 
-1. Install dependencies
+## Get Started
+
+1. **Install Dependencies**  
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Run the App**  
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   This will start the app, and you'll have the option to open it on:
+   - **Android Emulator**
+   - **iOS Simulator**
+   - **Expo Go**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+3. **Modify and Develop**  
+   You can start editing the files in the `app` directory to build new features or make customizations. The project utilizes [file-based routing](https://docs.expo.dev/router/introduction/) for easy navigation.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Tech Stack
 
-When you're ready, run:
+- **React Native**: Framework for building cross-platform mobile apps.
+- **OpenAI GPT API**: Powers the app's conversational AI capabilities.
+- **Expo**: Streamlines the development process and provides easy access to React Native features.
+- **Firebase**: Used for authentication, user data management, and real-time updates.
+
+---
+
+## Features
+
+- **Voice and Text Commands**: Perform tasks using natural language input.
+- **Set Reminders**: Users can set personal reminders and manage tasks.
+- **Weather Updates**: Get real-time weather information based on user input.
+- **Task Execution**: The app can execute various tasks as per the user’s command.
+- **User-Friendly Interface**: Simple and intuitive design for seamless interactions.
+
+---
+
+## Reset Project
+
+To reset the project to its initial state:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This command moves the starter code to the `app-example` directory and creates a fresh `app` directory for you to begin development.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Resources
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [Expo Documentation](https://docs.expo.dev/) – Explore Expo's capabilities for app development.
+- [React Native Docs](https://reactnative.dev/docs/getting-started) – Comprehensive guide for React Native development.
+- [OpenAI GPT API](https://beta.openai.com/docs/) – Reference for integrating GPT in your app.
+- [Firebase Docs](https://firebase.google.com/docs) – Learn about Firebase services like authentication and real-time databases.
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
